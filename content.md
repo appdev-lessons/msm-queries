@@ -16,7 +16,7 @@ Recall that the database design we came up with looked something like this (a fe
 
 Now, it's time to actually create a database such as this, populate it with records, and build a web app on top of it.
 
-[Here is our target.](https://msm-queries.matchthetarget.com/)
+Here is our target: [msm-queries.matchthetarget.com](https://msm-queries.matchthetarget.com/)
 
 ## Refer to the Contact Book lesson
 
