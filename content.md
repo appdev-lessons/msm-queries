@@ -20,7 +20,7 @@ Now, it's time to actually create a database such as this, populate it with reco
 
 ## Refer to the Contact Book lesson
 
-Keep [the Contact Book lesson open in a tab](https://learn.firstdraft.com/lessons/130#retrieving-existing-records) so that you can refer frequently to the ActiveRecord examples within.
+Keep [the Contact Book lesson open in a tab](https://learn.firstdraft.com/lessons/130-contact-book-first-database#retrieving-existing-records) so that you can refer frequently to the ActiveRecord examples within.
 
 ## Getting started
 
@@ -127,13 +127,13 @@ Here are some optional tasks for you try and tackle:
 
 How many years ago was "Casablanca" released?
 
- - Use the [`.where` method](https://learn.firstdraft.com/lessons/130#where). It is everything.
- - Remember that [`.where` always returns a collection, not a single row](https://learn.firstdraft.com/lessons/130#where-always-returns-a-relation-never-a-single-row).
+ - Use the [`.where` method](https://learn.firstdraft.com/lessons/130-contact-book-first-database#where). It is everything.
+ - Remember that [`.where` always returns a collection, not a single row](https://learn.firstdraft.com/lessons/130-contact-book-first-database#where-always-returns-a-relation-never-a-single-row).
  - Calculate the value dynamically (using e.g. `Time.now.year`), so that the number is always up to date.
 
 ### Other queries
 
- - How many movies in our table are from [before](https://learn.firstdraft.com/lessons/130#less-than-or-greater-than) the year 2000?
+ - How many movies in our table are from [before](https://learn.firstdraft.com/lessons/130-contact-book-first-database#less-than-or-greater-than) the year 2000?
     - Displays the titles and years of the films.
  - How many directors in our table are less than 55 years old?
     - Display their names and dates of birth.
