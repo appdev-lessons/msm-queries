@@ -121,7 +121,7 @@ Now, let's use our ActiveRecord querying skills, along with our RCAV skills, to 
 
 ## Optional tasks
 
-Here are some optional tasks for you try and tackle:
+Here are some optional tasks for you to try and tackle:
 
 ### Finding a movie by title
 
