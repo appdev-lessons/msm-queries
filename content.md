@@ -127,7 +127,7 @@ When querying for the youngest and eldest directors, be sure to exclude any dire
 Director.where.not({ :dob => nil })
 ```
 
-If you don't do this, you may get errors in the `rake grade` specs, since our test database includes some directors with the `dob` set to `nil`.
+If you don't do this, you may get errors in the `rake grade` specs, since our test database includes some directors with the `dob` is set to `nil`.
 
 ## Optional tasks
 
