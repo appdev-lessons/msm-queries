@@ -119,6 +119,16 @@ In `/rails/db`, you should now see that all four tables have been populated with
 
 Now, let's use our ActiveRecord querying skills, along with our RCAV skills, to start displaying the information in our database on our dynamically generated web pages.
 
+## Youngest and eldest hint
+
+When querying for the youngest and eldest directors, be sure to exclude any directors where the `dob` column is `nil`. You can do that using `.where.not()` as a first step in your querying, e.g.
+
+```ruby
+Director.where.not({ :dob => nil })
+```
+
+If you don't do this, you may get errors in the `rake grade` specs, since our test database includes some directors with the `dob` set to `nil`.
+
 ## Optional tasks
 
 Here are some optional tasks for you to try and tackle:
